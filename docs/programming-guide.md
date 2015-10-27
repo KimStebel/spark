@@ -7,6 +7,21 @@ description: Spark SPARK_VERSION_SHORT programming guide in Java, Scala and Pyth
 * This will become a table of contents (this text will be scraped).
 {:toc}
 
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://185.73.38.147:8080/thebe/static/main-built.js" type="text/javascript" charset="utf-8"></script>
+
+  <script>
+    $(function(){
+      new Thebe({
+        url:"http://185.73.38.147:8000",
+				selector: 'code.language-scala',
+        tmpnb_mode: true,
+        kernel_name: "scala",
+				debug: true,
+				image_name: "kimstebel/thebe-demo-notebook"
+      });
+    });
+  </script>
 
 # Overview
 
